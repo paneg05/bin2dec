@@ -5,21 +5,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/estilo.css">
+
+
+        <link rel="stylesheet" href="css/estilo.css" type="text.css">
         
 
     </head>
     <body>
         
-        <form>
-           <input  id="entrada"  onchange="converter()" type="text">
+        <section class="principal">
+            <div class="container">
+               <div>
 
-            <input id="saida" type="text" disabled> 
-        </form>
+                    <form >
+                        <input  placeholder="entre com digitos binarios!!"  id="entrada"  onkeyup="converte()" type="text">
+                     </form>
+
+                    <form>
+                        <input placeholder="números decimais " id="saida" type="text" disabled> 
+                    </form>
+                </div> 
+            </div>
+            
+        </section>
         
-
-
-
+        
 
 
         <!--aplicação js-->
